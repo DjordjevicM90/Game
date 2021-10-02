@@ -66,8 +66,8 @@ function move(){
         return false;
     }
     
-    if(btn_bullet.disabled == true) {
-        return false
+    if(btn_bullet.disabled === true) {
+        return false;
     }
     
     if(event.keyCode==37){
