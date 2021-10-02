@@ -65,6 +65,11 @@ function move(){
     if(event.keyCode!=37 && event.keyCode!=39){
         return false;
     }
+    
+    if(btn_bullet.disabled == true) {
+        return false
+    }
+    
     if(event.keyCode==37){
         shooterLeft-=10;
         bulletLeft-=10;
